@@ -1,13 +1,13 @@
 ---
 all:
   children:
-    oracle_test_micro1:
+    oracle_test_big:
       hosts:
-        oracle_test_micro1: 
+        oracle_test_big: 
           # Organizing host and group variables:
           # https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html#splitting-out-vars
-          hostname: micro1
+          hostname: big
           ansible_conncetion: ssh
           ansible_user: ubuntu
-          ansible_host: 141.147.14.14
+          ansible_host: 130.162.233.225
           ansible_port: 22
