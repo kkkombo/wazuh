@@ -1,0 +1,24 @@
+---
+all:
+  children:
+    # group manager
+    manager:
+      hosts:
+        oracle_test_big: 
+          hostname: big
+    agents:
+      hosts:
+        oracle_test_micro1: 
+          hostname: micro1
+        oracle_test_micro2:
+          hostname: micro2
+
+
+# .ini analogue:
+#
+# [manager]
+# big
+# 
+# [agents]
+# micro1
+# micro2

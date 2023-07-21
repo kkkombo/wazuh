@@ -1,0 +1,25 @@
+---
+all:
+  hosts:
+    # independent host
+    proxmox_ansible: 
+      hostname: proxmox
+  children:
+    # group "oracle" with all oracle-hosted vm's in it
+    oracle:
+      hosts:
+        oracle_test_big: 
+          hostname: big
+        oracle_test_micro1: 
+          hostname: micro1
+        oracle_test_micro2:
+          hostname: micro2
+
+# .ini analogue:
+#
+# proxmox
+# 
+# [oracle]
+# big
+# micro1
+# micro2

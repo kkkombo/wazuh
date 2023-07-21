@@ -1,0 +1,29 @@
+#privat
+#oracle instance
+host oracle_test_big
+  hostname 130.162.233.225
+  user ubuntu
+  port 22
+  IdentityFile ~/.ssh/oracle_free
+  AddKeysToAgent yes
+
+host oracle_test_micro1
+  hostname 141.147.14.14
+  user ubuntu
+  port 22
+  IdentityFile ~/.ssh/oracle_free
+  AddKeysToAgent yes
+
+host oracle_test_micro2
+  hostname 152.70.179.163
+  user ubuntu
+  port 22
+  IdentityFile ~/.ssh/oracle_free
+  AddKeysToAgent yes
+
+host github.com
+  hostname github.com
+  user git
+  port 22
+  IdentityFile ~/.ssh/oracle_free
+  AddKeysToAgent yes

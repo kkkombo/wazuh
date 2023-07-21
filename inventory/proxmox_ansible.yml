@@ -1,0 +1,7 @@
+---
+all:
+  children:
+    proxmox_ansible:
+      hosts:
+        proxmox_ansible: 
+          hostname: proxmox
